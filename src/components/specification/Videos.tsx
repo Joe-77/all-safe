@@ -49,9 +49,9 @@ export default function Videos() {
         <div className="text-center">
           <h3 className="text-2xl md:text-8xl pb-2">100K</h3>
           <p className="max-w-[320px] px-5 text-xs md:text-sm">
-            We've gathered dozens of positive reviews from the clients and more
-            than 100k reviews from their users. trying to make this world a lit
-            bit better
+            We&apos;ve gathered dozens of positive reviews from the clients and
+            more than 100k reviews from their users. trying to make this world a
+            lit bit better
           </p>
         </div>
         <div>

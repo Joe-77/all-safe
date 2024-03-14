@@ -105,7 +105,7 @@ export default function design() {
         <div className="flex flex-col md:flex-row items-start gap-4 md:gap-8">
           <h4 className="text-xs">CREATIVE DESIGN</h4>
           <div className="text-lg">
-            <p>We don't do cookie-cutter solutions.</p>
+            <p>We don&apos;t do cookie-cutter solutions.</p>
             <p className="w-auto md:w-96">
               Our user-centered design encourages productivity and boosts
               revenue.

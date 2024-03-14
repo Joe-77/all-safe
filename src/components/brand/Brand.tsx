@@ -16,6 +16,7 @@ export default function Brand() {
           <source src="/63691344.mp4" />
         </video>
       </div>
+
       <div className="title lg:pt-16">
         <div className="name pt-14 md:pt-28 px-7 md:px-20">
           <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl uppercase">
@@ -46,7 +47,7 @@ export default function Brand() {
             <p className="max-w-[420px] text-sm md:text-lg text-justify">
               The only thing that matters in a brand is what you feel when
               interacting with a product. We assist established and emerging
-              brands in creating identities that reflect the brand's true
+              brands in creating identities that reflect the brand&apos;s true
               identity.
             </p>
           </motion.div>

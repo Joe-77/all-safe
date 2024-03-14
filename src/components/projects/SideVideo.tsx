@@ -7,7 +7,7 @@ export default function SideVideo() {
         </video>
         <div className="text-3xl max-w-[350px] uppercase font-Oswald">
           <p>
-            we think and speak mainly swift, kotlin, node, react. that's
+            we think and speak mainly swift, kotlin, node, react. that&apos;s
             everything
           </p>
           <p>you need!</p>
