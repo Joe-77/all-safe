@@ -22,8 +22,8 @@ export default function Skills() {
         }}
         className="animate-skills flex"
       >
-        {data?.map((e: any) => (
-          <div className="img-container w-48 flex justify-center">
+        {data?.map((e: any, i: number) => (
+          <div key={i} className="img-container w-48 flex justify-center">
             <Image src={e.src} alt={e.name} width={50} height={50} />
           </div>
         ))}
@@ -34,8 +34,8 @@ export default function Skills() {
         }}
         className="animate-skills flex mt-10"
       >
-        {skills?.map((e: any) => (
-          <div className="img-container w-48 flex justify-center">
+        {skills?.map((e: any, i: number) => (
+          <div key={i} className="img-container w-48 flex justify-center">
             <Image src={e.src} alt={e.name} width={50} height={50} />
           </div>
         ))}
