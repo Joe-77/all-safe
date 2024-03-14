@@ -64,9 +64,6 @@ export const ContextProvider = ({ children }: any) => {
         setShowScroll(true);
       }
     });
-  }, []);
-
-  useEffect(() => {
     window.addEventListener("mousemove", (e) => {
       if (scrollY > 2800 && scrollY < 3000) {
         setTranslate({ x: e.clientX - 390, y: e.clientY - 350 });
@@ -75,7 +72,7 @@ export const ContextProvider = ({ children }: any) => {
       } else if (scrollY > 3200 && scrollY < 3500) {
         setTranslate({ x: e.clientX - 390, y: e.clientY + 50 });
       } else if (scrollY >= 3500) {
-        setTranslate({ x: e.clientX - 390, y: e.clientY + 300 });
+        setTranslate({ x: e.clientX - 390, y: e.clientY + 320 });
       } else {
         setTranslate({ x: 0, y: 0 });
       }
@@ -88,7 +85,7 @@ export const ContextProvider = ({ children }: any) => {
         setArtTranslate({ x: 0, y: 0 });
       }
     });
-  });
+  }, []);
 
   const handleShowMenu = () => {
     setShowMenu(!showMenu);
