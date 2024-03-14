@@ -1,0 +1,8 @@
+#work-text {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #333;
+}
+#project-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px black;
+}
