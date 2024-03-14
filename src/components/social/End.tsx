@@ -4,7 +4,7 @@ export default function End() {
   return (
     <div className="mt-20 h-screen relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center z-[50]">
-        <h3 className="uppercase font-modern text-8xl text-center">
+        <h3 className="uppercase font-modern text-5xl md:text-8xl text-center">
           have <br /> an idea?
         </h3>
         <Link
