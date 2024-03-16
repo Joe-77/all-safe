@@ -88,7 +88,7 @@ export default function Smart() {
                   <div>
                     <ul className="flex flex-wrap gap-4 max-w-[500px]">
                       <li className="border-2 border-white rounded-full px-3 py-1 cursor-pointer duration-700 hover:bg-white hover:text-black">
-                        e-commerce
+                        <p>e-commerce</p>
                       </li>
                       <li className="border-2 border-white rounded-full px-3 py-1 cursor-pointer duration-700 hover:bg-white hover:text-black">
                         finance

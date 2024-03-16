@@ -9,6 +9,7 @@ import WhatsApp from "@/components/contact-animation/WhatsApp";
 import Projects from "@/components/feature/Projects";
 import Course from "@/components/development/Course";
 import Footer from "@/components/Footer";
+import Swipe from "@/components/slider/Swipe";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
       <Title />
       <Projects />
       <Course />
+      <Swipe />
       <Footer />
       <Ball />
       <Msg />
